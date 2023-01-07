@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Weather App made from Nuxt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This frontend project have a dependency on [Weather App Backend](https://github.com/JohnCarlo29/weather-app-backend).
 
 ## Setup
 
@@ -16,6 +16,11 @@ npm install
 # pnpm
 pnpm install --shamefully-hoist
 ```
+
+## Environtment Variable
+Run: `cp .env.example .env`
+
+Change `API_BASE_URL=http://localhost:8000/api`
 
 ## Development Server
 
@@ -39,4 +44,3 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
